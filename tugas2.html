@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML 2</title>
+</head>
+<body>
+    <h1>Daftar Hadir</h1>
+    <label for="nama">Nama : </label>
+    <input type="text" name="nama" id="nama">
+    <br>
+    <label for="nama">Keterangan : </label>
+    
+    <input type="radio" id="hadir" name="keterangan" value="hadir">
+    <label for="hadir">hadir</label>
+    
+    <input type="radio" id="tidak_hadir" name="keterangan" value="tidak_hadir">
+    <label for="tidak_hadir">tidak hadir</label>
+
+    <br>
+    <input type="submit" value="tambah">
+
+    <br><br>
+    <table border="1" cellpadding="5" cellspacing="0" width="100%" height="300px">
+        <tr>
+            <th rowspan="2">No.</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Keterangan</th>
+        </tr>
+        <tr>
+            <th>Hadir</th>
+            <th>Tidak Hadir</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Alfin</td>
+            <td>100%</td>
+            <td>0%</td>
+        </tr>
+    </table>
+</body>
+</html>
